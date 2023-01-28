@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: setup-npm-bs
 
 on:
   push:
-
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   build:
